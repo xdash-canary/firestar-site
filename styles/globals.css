@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'Omnibus Sans Serif';
+  src: url('./fonts/Omnibus Sans Serif.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    @apply bg-voltarian-dark text-white font-display;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-voltarian-green to-emerald-400 bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  
+  .voltarian-button {
+    @apply bg-voltarian-green hover:bg-emerald-400 text-voltarian-dark font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-voltarian-green/25;
+  }
+  
+  .voltarian-card {
+    @apply glass-effect rounded-xl p-6 hover:bg-white/15 transition-all duration-300;
+  }
+  
+  .pricing-card {
+    @apply relative glass-effect rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 border border-white/20;
+  }
+  
+  .pricing-card.featured {
+    @apply border-2 border-voltarian-green shadow-2xl shadow-voltarian-green/20;
+  }
+  
+  .feature-icon {
+    @apply w-12 h-12 bg-voltarian-green/20 rounded-lg flex items-center justify-center text-voltarian-green;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .glow {
+    box-shadow: 0 0 20px rgba(58, 228, 116, 0.5);
+  }
+  
+  .glow-green {
+    box-shadow: 0 0 30px rgba(58, 228, 116, 0.7);
+  }
+}
