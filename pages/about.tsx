@@ -45,7 +45,7 @@ export default function About() {
                 About <span className="gradient-text">VoltaTECH</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                Your trusted partner for affordable hosting solutions since 2020. 
+                Your partner for affordable hosting solutions since 2026. 
                 We're dedicated to providing reliable, fast, and secure hosting services.
               </p>
             </motion.div>
