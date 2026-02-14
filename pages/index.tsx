@@ -101,11 +101,11 @@ export default function Home() {
               className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
             >
               <div className="text-center">
-                <div className="text-4xl font-bold gradient-text">50+</div>
+                <div className="text-4xl font-bold gradient-text">40+</div>
                 <div className="text-gray-400">Texture Packs</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold gradient-text">100K+</div>
+                <div className="text-4xl font-bold gradient-text">4K+</div>
                 <div className="text-gray-400">YouTube Views</div>
               </div>
               <div className="text-center">
@@ -248,8 +248,6 @@ export default function Home() {
                       className="absolute inset-0 w-full h-full object-cover rounded-lg"
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Latest Minecraft Content</h3>
-                  <p className="text-gray-300">Check out my latest Minecraft adventures and texture pack showcases!</p>
                   <a 
                     href="https://www.youtube.com/watch?v=EbuhfHomJdo" 
                     target="_blank" 
@@ -274,8 +272,6 @@ export default function Home() {
                       className="absolute inset-0 w-full h-full object-cover rounded-lg"
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Texture Pack Tutorials</h3>
-                  <p className="text-gray-300">Learn how to install and use my custom texture packs for best experience!</p>
                   <a 
                     href="https://www.youtube.com/watch?v=p6MyVVHJmJU" 
                     target="_blank" 
