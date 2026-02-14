@@ -17,7 +17,7 @@
   }
   
   body {
-    @apply bg-voltarian-dark text-white font-display;
+    @apply bg-firestar-dark text-white font-display;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
   
@@ -28,15 +28,23 @@
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-voltarian-green to-emerald-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-fire-orange to-fire-red bg-clip-text text-transparent;
   }
   
   .glass-effect {
     @apply bg-white/10 backdrop-blur-md border border-white/20;
   }
   
+  .firestar-button {
+    @apply bg-gradient-to-r from-fire-orange to-fire-red hover:from-fire-red hover:to-fire-orange text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-fire-orange/25;
+  }
+  
   .voltarian-button {
     @apply bg-voltarian-green hover:bg-emerald-400 text-voltarian-dark font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-voltarian-green/25;
+  }
+  
+  .firestar-card {
+    @apply glass-effect rounded-xl p-6 hover:bg-white/15 transition-all duration-300;
   }
   
   .voltarian-card {
@@ -52,7 +60,7 @@
   }
   
   .feature-icon {
-    @apply w-12 h-12 bg-voltarian-green/20 rounded-lg flex items-center justify-center text-voltarian-green;
+    @apply w-12 h-12 bg-fire-orange/20 rounded-lg flex items-center justify-center text-fire-orange;
   }
 }
 
@@ -62,10 +70,14 @@
   }
   
   .glow {
-    box-shadow: 0 0 20px rgba(58, 228, 116, 0.5);
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.5);
   }
   
   .glow-green {
-    box-shadow: 0 0 30px rgba(58, 228, 116, 0.7);
+    box-shadow: 0 0 30px rgba(255, 107, 53, 0.7);
+  }
+  
+  .glow-fire {
+    box-shadow: 0 0 30px rgba(255, 140, 66, 0.8);
   }
 }

@@ -8,6 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'firestar-green': '#FF6B35',
+        'firestar-dark': '#1a0a0a',
+        'firestar-light': '#fff5f0',
+        'fire-orange': '#FF8C42',
+        'fire-red': '#DC143C',
+        'fire-yellow': '#FFD700',
         'voltarian-green': '#3AE474',
         'voltarian-dark': '#1a1a1a',
         'voltarian-light': '#f8f9fa',
