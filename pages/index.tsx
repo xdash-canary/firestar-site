@@ -340,7 +340,7 @@ export default function Home() {
           <div className="container mx-auto">
             {/* Social Media Icons */}
             <div className="flex items-center justify-center mb-8">
-              <a href="mailto:firestar09_@example.com" className="text-white hover:text-firestar-green transition-colors mx-3">
+              <a href="mailto:mc.firestar0910@gmail.com" className="text-white hover:text-firestar-green transition-colors mx-3">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 14H4V8l8 5 8-5zm-8-7L4 6h16z"/>
                 </svg>
